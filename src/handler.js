@@ -55,6 +55,7 @@ const addBookHandler = (request, h) => {
       })
       .code(400);
   }
+// this code made by fyd
 
   books.push(newBook);
   const isSuccess = books.filter((book) => book.id === id).length > 0;

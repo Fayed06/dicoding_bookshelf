@@ -1,6 +1,6 @@
 const Hapi = require('@hapi/hapi');
 const routes = require('./routes');
-
+// this code made by fyd
 const init = async () => {
   const server = Hapi.server({
     port: 9000,
@@ -15,7 +15,6 @@ const init = async () => {
   server.route(routes);
 
   await server.start();
-  // eslint-disable-next-line no-console
   console.log(`Server running at ${server.info.uri}`);
 };
 
