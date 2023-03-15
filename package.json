@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/medival/bookshelf-api.git"
+    "url": "git+https://github.com/Fayed06/dicoding_bookshelf.git"
   },
   "keywords": [],
   "author": "fyd",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/medival/bookshelf-api/issues"
+    "url": "https://github.com/Fayed06/dicoding_bookshelf/issues"
   },
-  "homepage": "https://github.com/medival/bookshelf-api#readme",
+  "homepage": "https://github.com/Fayed06/dicoding_bookshelf#readme",
   "dependencies": {
     "@hapi/hapi": "^20.3.0",
     "nanoid": "^3.1.22"
